@@ -4,6 +4,7 @@ Projekt je pripraveny pro dve veci:
 
 - publikaci hry na GitHub Pages z `index.html`
 - vzdaleny build debug APK pres GitHub Actions a Capacitor
+- automaticke generovani Android ikonky z `assets/logo.png`
 
 ## GitHub Pages
 
@@ -24,3 +25,4 @@ Postup:
 
 - `index.html` = web pro GitHub Pages
 - `www/index.html` = stejny obsah pro Capacitor Android build
+- `assets/logo.png` = zdroj vlastni Android ikonky

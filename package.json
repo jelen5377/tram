@@ -5,13 +5,15 @@
   "description": "TurboWarp game packaged for GitHub Pages and remote Android APK build.",
   "scripts": {
     "cap:add:android": "npx cap add android",
-    "cap:sync": "npx cap sync android"
+    "cap:sync": "npx cap sync android",
+    "assets:android": "npx @capacitor/assets generate --android --assetPath assets --iconBackgroundColor '#ffffff' --splashBackgroundColor '#ffffff'"
   },
   "dependencies": {
     "@capacitor/android": "^7.1.0",
     "@capacitor/core": "^7.1.0"
   },
   "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
     "@capacitor/cli": "^7.1.0"
   }
 }
