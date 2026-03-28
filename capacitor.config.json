@@ -1,0 +1,8 @@
+{
+  "appId": "cz.jelen5377.tramvajhra",
+  "appName": "TramvajHra",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
